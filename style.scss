@@ -1,0 +1,80 @@
+/* CSS Document */
+@import 'https://fonts.googleapis.com/css?family=PT+Sans+Narrow';
+
+
+html{
+	font-family: fantasy;
+	
+}
+
+header {
+	font-family: 'PT Sans Narrow', sans-serif;
+
+	margin-top: 0; 
+	margin-bottom: 2%;
+	height: 100%;
+	background-color:  hsla(27,72%,13%,1.00);
+	
+	h1 {
+		margin-top: 0;
+		text-align: center;
+		color: white;
+		box-sizing: border-box;
+	}
+}
+
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color:  hsla(188,37%,38%,1.00);
+
+	table {
+		background-color: #F9F9F9;
+		border: 1px;
+		border-color: black;
+		border-style:solid;
+	
+
+		thead { 
+			border: 1px;
+			border-style:solid;	
+			border-color: black;
+			font-size: 22px;	
+			
+		}
+
+		tbody {
+			
+			tr:nth-of-type(even) {
+	
+				background-color:#F0F0F0;
+			}
+
+			
+			tr {
+				font-size: 20px;
+				
+				
+				
+				td {
+					border: 1px;
+					border-color: lightgray;
+					border-style:solid;	
+				}
+
+				a {
+					img.imgUser {
+					border: thin;
+					border-style:solid;
+					border-color: black;
+					border-radius: 10%;	
+					margin: 5px;	
+					}
+				} 
+
+			}
+		}
+
+
+	}
+}
+
